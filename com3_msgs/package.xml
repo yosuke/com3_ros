@@ -12,6 +12,7 @@
 
   <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
+  <depend>action_msgs</depend>
   <build_depend condition="$ROS_VERSION == 2">rosidl_default_generators</build_depend>
   <exec_depend condition="$ROS_VERSION == 2">rosidl_default_runtime</exec_depend>
   <member_of_group condition="$ROS_VERSION == 2">rosidl_interface_packages</member_of_group>
